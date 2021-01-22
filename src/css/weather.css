@@ -1,0 +1,38 @@
+
+.box1 {
+    background-color: #16a085;
+    width: 350px;
+    height: auto;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px #000000;
+}
+
+.inputField1 {
+    padding: 10px;
+    font-size: 125%;
+    border-radius: 25px;
+    background-color: #1abc9c;
+    color: white;
+    text-align: center;
+    border: 2px solid #16a085;
+}
+
+.inputField1:focus {
+    outline: none;
+}
+
+.errorMsg1 {
+    text-align: center;
+}
+
+@media (max-width: 350px) {
+    .box1 {
+        width: 100%;
+    }
+    .inputField1 {
+        width: 100%;
+    }
+}

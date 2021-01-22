@@ -1,0 +1,28 @@
+
+.active_class > a {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.or > a {
+    background-color: #f39c12;
+}
+
+.or > a:hover {
+    background-color: #f1c40f;
+}
+
+.bl > a {
+    background-color: #16a085;
+}
+
+.bl > a:hover {
+    background-color: #1abc9c;
+}

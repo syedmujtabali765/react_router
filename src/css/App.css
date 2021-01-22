@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&family=Roboto:ital,wght@1,100&display=swap');
+
+#main, nav, footer {
+    background-color: #7f8c8d;
+}
+
+#main {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav, footer {
+    height: 10vh;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-item > a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.navbar-item > a:hover {
+    background-color: white;
+    color: #7f8c8d;
+    border-radius: 8px;
+}
